@@ -45,7 +45,7 @@ Write data
 
 
 .conf cheat sheat
-~~~~~~~~~~
+~~~~~~~~~~~~~~~~~
 
 .. code-block::
 
