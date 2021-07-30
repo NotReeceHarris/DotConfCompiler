@@ -1,35 +1,51 @@
-from setuptools import setup, find_packages
-import codecs
+#!/usr/bin/env python3
+
 import os
+from setuptools import find_packages, setup
 
-here = os.path.abspath(os.path.dirname(__file__))
+base_dir = os.path.dirname(__file__)
 
-with codecs.open(os.path.join(here, "README.md"), encoding="utf-8") as fh:
-    long_description = "\n" + fh.read()
+about = {}
+with open(os.path.join("ConfCompiler", "__about__.py")) as f:
+    exec(f.read(), about)
 
-VERSION = '0.0.1'
-DESCRIPTION = 'Compile, Read and update your .conf file in python'
-LONG_DESCRIPTION = 'A package that allows you to interact with .conf files withing python.'
+with open(os.path.join(base_dir, "README.md")) as f:
+    long_description = f.read()
 
-# Setting up
-setup(
-    name="confcompiler",
-    version=VERSION,
-    author="NotReeceHarris (Reece Harris)",
-    author_email="<reece.harris98@protonmail.com>",
-    description=DESCRIPTION,
-    long_description_content_type="text/markdown",
-    long_description=long_description,
-    packages=find_packages(),
-    url = 'https://github.com/NotReeceHarris/DotConfCompiler'
-    install_requires=[],
-    keywords=['python', 'compile', 'config', 'v.conf', 'update', 'write'],
-    classifiers=[
-        "Development Status :: 1 - Production",
-        "Intended Audience :: Developers",
-        "Programming Language :: Python :: 3",
-        "Operating System :: Unix",
-        "Operating System :: MacOS :: MacOS X",
-        "Operating System :: Microsoft :: Windows",
-    ]
-)
+
+try:
+    setup(
+        name=about["__title__"],
+        version=about["__version__"],
+        description=about["__summary__"],
+        long_description=long_description,
+        long_description_content_type="text/x-rst",
+        license=about["__license__"],
+        url=about["__uri__"],
+        author=about["__author__"],
+        author_email=about["__email__"],
+        classifiers=[
+            "Development Status :: 5 - Production/Stable",
+            "Intended Audience :: Developers",
+            "License :: Apache Software License",
+            "Natural Language :: English",
+            "Operating System :: MacOS :: MacOS X",
+            "Operating System :: POSIX",
+            "Operating System :: POSIX :: BSD",
+            "Operating System :: POSIX :: Linux",
+            "Operating System :: Microsoft :: Windows",
+            "Programming Language :: Python",
+            "Programming Language :: Python :: 3",
+            "Programming Language :: Python :: 3 :: Only",
+            "Programming Language :: Python :: 3.6",
+            "Programming Language :: Python :: 3.7",
+            "Programming Language :: Python :: 3.8",
+            "Programming Language :: Python :: 3.9",
+        ],
+        python_requires=">=3.6",
+    )
+except:
+    print('''
+    Update your pip, if that doesnt fix the issue raise this issue here (https://github.com/NotReeceHarris/DotConfCompiler/issues)
+    ''')
+    raise
