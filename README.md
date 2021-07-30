@@ -1,5 +1,9 @@
 # DotConfCompiler
 
+## Compiling the code into dist
+```Bash
+python setup.py sdist bdist_wheel
+```
 ```python
 # Config file:
 #       Dont directly edit this file unless you know what your doing,
