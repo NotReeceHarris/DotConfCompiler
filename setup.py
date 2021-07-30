@@ -21,6 +21,7 @@ setup(
     long_description_content_type="text/markdown",
     long_description=long_description,
     packages=find_packages(),
+    url = 'https://github.com/NotReeceHarris/DotConfCompiler'
     install_requires=[],
     keywords=['python', 'compile', 'config', 'v.conf', 'update', 'write'],
     classifiers=[
