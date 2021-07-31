@@ -1,19 +1,24 @@
 DotConfCompiler
 =================
 
-.. image:: https://img.shields.io/badge/python-3-green.svg?style=flat-square
+.. image:: https://img.shields.io/badge/python-3-green.svg
+    :target: https://www.python.org/
     :alt: Python3
     
-.. image:: https://img.shields.io/pypi/v/confcompiler?style=flat-square
+.. image:: https://img.shields.io/pypi/v/confcompiler
+    :target: https://pypi.org/project/confcompiler/
     :alt: PyPI
 
-.. image:: https://img.shields.io/pypi/format/confcompiler?style=flat-square
+.. image:: https://img.shields.io/pypi/format/confcompiler
+    :target: https://pypi.org/project/confcompiler/
     :alt: PyPI format
 
-.. image:: https://img.shields.io/pypi/dd/confcompiler?style=flat-square
+.. image:: https://img.shields.io/pypi/dd/confcompiler
+    :target: https://pypi.org/project/confcompiler/
     :alt: PyPI downloads
 
-.. image:: https://img.shields.io/pypi/status/confcompiler?style=flat-square
+.. image:: https://img.shields.io/pypi/status/confcompiler
+    :target: https://pypi.org/project/confcompiler/
     :alt: PyPI downloads
 
 Supported Data Types
