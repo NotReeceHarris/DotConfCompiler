@@ -10,6 +10,11 @@ DotConfCompiler
 .. image:: https://img.shields.io/pypi/format/confcompiler?style=flat-square
     :alt: PyPI format
 
+.. image:: https://img.shields.io/pypi/dm/confcompiler?style=flat-square
+    :alt: PyPI downloads
+    
+    
+
 
 Compile, Read and update your .conf file in python
 
