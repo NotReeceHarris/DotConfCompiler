@@ -28,7 +28,7 @@ try:
         classifiers=[
             "Development Status :: 5 - Production/Stable",
             "Intended Audience :: Developers",
-            "License :: Apache Software License",
+            "License :: OSI Approved :: Apache Software License",
             "Natural Language :: English",
             "Operating System :: MacOS :: MacOS X",
             "Operating System :: POSIX",
