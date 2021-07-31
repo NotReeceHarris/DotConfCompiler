@@ -27,7 +27,7 @@ import ast
 #       Variables  - Data must start with a variable name then continued
 #                    with '=' after that the data.
 #     
-#       Data Types - Boolen, String
+#       Data Types - Str, Int, Float, Bool, Tuple, List, Dict, Complex, Bytes
 
 def is_numerical(s):
     try:
@@ -116,7 +116,7 @@ def ConfRead(FilePath,*VarName):
         ===============================================================
         1 or more options have unsupported data types here is a list of
         supported data types:
-            Int, Float, Bool, Tuple, List, Dict, Complex, Bytes
+            Str, Int, Float, Bool, Tuple, List, Dict, Complex, Bytes
 
         If this error keeps occuring report this issue here:
             https://github.com/NotReeceHarris/DotConfCompiler/issues
