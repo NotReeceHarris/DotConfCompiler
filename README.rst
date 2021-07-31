@@ -70,3 +70,5 @@ Write Data
 
     Variables  - Data must start with a variable name then continued
                  with '=' after that the data.
+                
+    Data Types - Str, Int, Float, Bool, Tuple, List, Dict, Complex, Bytes
