@@ -24,6 +24,7 @@ try:
         url=about["__uri__"],
         author=about["__author__"],
         author_email=about["__email__"],
+        keywords=['config', '.conf', 'compiler', 'configuration', 'data types'],
         classifiers=[
             "Development Status :: 5 - Production/Stable",
             "Intended Audience :: Developers",
