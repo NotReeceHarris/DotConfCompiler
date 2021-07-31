@@ -15,14 +15,10 @@ DotConfCompiler
 
 .. image:: https://img.shields.io/pypi/status/confcompiler?style=flat-square
     :alt: PyPI downloads
-    
-    
-
-
-Compile, Read and update your .conf file in python
 
 Supported Data Types
 ~~~~~~~~~~~~~~~~~~~~
+* Str
 * Int
 * Float
 * Bool
