@@ -21,8 +21,19 @@ DotConfCompiler
 
 Compile, Read and update your .conf file in python
 
-Read data
-~~~~~~~~~~
+Supported Data Types
+~~~~~~~~~~~~~~~~~~~~
+* Int
+* Float
+* Bool
+* Tuple
+* List
+* Dict
+* Complex
+* Bytes
+
+Read Data
+~~~~~~~~~
 
 .. code-block:: pycon
 
@@ -40,7 +51,7 @@ Read data
     >>> type(Connected)
     <class 'bool'>
 
-Write data
+Write Data
 ~~~~~~~~~~
  
 
@@ -52,7 +63,7 @@ Write data
     >>> ConfWrite('Config.conf', 'Connected', True)
 
 
-.conf cheat sheat
+.conf Cheat Sheat
 ~~~~~~~~~~~~~~~~~
 
 .. code-block::
