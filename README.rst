@@ -23,15 +23,18 @@
 
 Supported Data Types
 ~~~~~~~~~~~~~~~~~~~~
-* Str
-* Int
-* Float
-* Bool
-* Tuple
-* List
-* Dict
-* Complex
-* Bytes
+
+.. code-block::
+
+    - Str
+    - Int
+    - Float
+    - Bool
+    - Tuple
+    - List
+    - Dict
+    - Complex
+    - Bytes
 
 Read Data
 ~~~~~~~~~
