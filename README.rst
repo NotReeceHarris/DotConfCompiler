@@ -1,4 +1,4 @@
-DotConfCompiler
+⚙️ ConfCompiler
 =================
 
 .. image:: https://img.shields.io/badge/python-3-green.svg
