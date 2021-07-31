@@ -1,1 +1,2 @@
-from main import ConfRead, ConfWrite
+from ConfCompiler.Compiler import ConfRead
+from ConfCompiler.Compiler import ConfWrite
