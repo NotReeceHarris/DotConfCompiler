@@ -10,7 +10,7 @@ DotConfCompiler
 .. image:: https://img.shields.io/pypi/format/confcompiler?style=flat-square
     :alt: PyPI format
 
-.. image:: https://img.shields.io/pypi/dm/confcompiler?style=flat-square
+.. image:: https://img.shields.io/pypi/dd/confcompiler?style=flat-square
     :alt: PyPI downloads
 
 .. image:: https://img.shields.io/pypi/status/confcompiler?style=flat-square
