@@ -9,7 +9,6 @@
 
 import json
 import os
-import ast 
 
 # Config file:
 #       Dont directly edit this file unless you know what your doing,

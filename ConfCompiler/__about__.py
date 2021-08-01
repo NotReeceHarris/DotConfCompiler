@@ -14,7 +14,7 @@ __summary__ = (
 )
 __uri__ = "https://github.com/NotReeceHarris/DotConfCompiler"
 
-__version__ = "0.0.3"
+__version__ = "0.0.4"
 
 __author__ = "NotReeceHarris (Reece Harris)"
 __email__ = "reece.harris98@protonmail.com"
