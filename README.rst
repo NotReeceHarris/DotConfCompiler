@@ -13,7 +13,7 @@ ConfCompiler
     :target: https://pypi.org/project/confcompiler/
     :alt: PyPI format
 
-.. image:: https://img.shields.io/pypi/dd/confcompiler
+.. image:: https://img.shields.io/pypi/dm/confcompiler
     :target: https://pypi.org/project/confcompiler/
     :alt: PyPI downloads
 
